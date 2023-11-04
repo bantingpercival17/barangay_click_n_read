@@ -6,7 +6,7 @@
         <div class="col-lg-5 col-md-12">
             <div class="card-body">
                 <center>
-                    <img src="@/assets/resources/image/bma-logo-1.png"
+                    <img src="@/logo.png"
                         class="center img-fluid avatar avatar-100 rounded-circle" alt="logo">
                 </center>
                 <h2 class="mb-2 text-center"><b>STUDENT PORTAL</b></h2>
