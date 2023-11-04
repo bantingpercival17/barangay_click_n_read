@@ -2,7 +2,7 @@
   <center>
     <div class="loader ">
       <div class="loader-body word-spacing">
-        <h1 class="loader-title fw-bold">BALIWAG MARITIME ACADEMY, INC.</h1>
+        <h1 class="loader-title fw-bold">BARANGAY CLICK N READ</h1>
       </div>
     </div>
   </center>

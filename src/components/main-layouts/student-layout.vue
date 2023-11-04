@@ -14,14 +14,12 @@
         <div class="conatiner-fluid content-inner mt-6 py-0">
             <router-view />
         </div>
-        <PageFooter />
     </main>
     <!-- Wrapper End-->
 </template>
 <script>
 import loader from '@/components/main-layouts/components/student-loader.vue'
 import PageHeader from '@/components/main-layouts/components/student-page-header.vue'
-import PageFooter from '@/components/main-layouts/components/page-footer.vue'
 import sidebar from '@/components/main-layouts/components/Sidebars/side-bar.vue'
 import serverLoader from '@/components/main-layouts/components/server-loader.vue'
 import { mapState } from 'vuex'
@@ -30,7 +28,6 @@ export default {
     components: {
         PageHeader,
         loader,
-        PageFooter,
         sidebar,
         serverLoader
     },
