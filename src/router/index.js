@@ -41,7 +41,7 @@ const authRoute = (prop) => [
     path: '/',
     name: prop + '.home',
     meta: { auth: false, name: 'Student Login', user: 'guest' },
-    component: () => import('../views/auth/student-login.vue')
+    component: () => import('../views/client/ClientDashboard.vue')
   },
   {
     path: '/login',
@@ -60,7 +60,7 @@ const routes = [
    {
      path: '/',
      name: 'auth-layout',
-     component: () => import('../components/main-layouts/auth-layout.vue'),
+     component: () => import('../components/main-layouts/student-layout.vue'),
      children: authRoute('auth-layout')
    },
   {

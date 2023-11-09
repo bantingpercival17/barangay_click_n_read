@@ -4,7 +4,7 @@
     </div>
     <server-loader v-if="showLoading"></server-loader>
     <!-- loader END -->
-    <sidebar :minisidebar="sidebarmini" @makeminisidebar="onsidebarmini" />
+    <!-- <sidebar :minisidebar="sidebarmini" @makeminisidebar="onsidebarmini" /> -->
     <main class="main-content">
         <div class="position-relative">
             <!--Nav Start-->
@@ -20,7 +20,6 @@
 <script>
 import loader from '@/components/main-layouts/components/student-loader.vue'
 import PageHeader from '@/components/main-layouts/components/student-page-header.vue'
-import sidebar from '@/components/main-layouts/components/Sidebars/side-bar.vue'
 import serverLoader from '@/components/main-layouts/components/server-loader.vue'
 import { mapState } from 'vuex'
 export default {
@@ -28,7 +27,6 @@ export default {
     components: {
         PageHeader,
         loader,
-        sidebar,
         serverLoader
     },
     data() {

@@ -8,7 +8,7 @@
     </div>
 </template>
 <script>
-import SCORM from 'pipwerks-scorm-api-wrapper'
+/* import SCORM from 'pipwerks-scorm-api-wrapper' */
 export default {
     data() {
         return {

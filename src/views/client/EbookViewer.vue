@@ -76,6 +76,53 @@ export default {
                     bookDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
                     bookLink: '/assets/scorm/ENGLISH_GR1/index.html',
                     numberOfReaders: '70%'
+                },
+                {
+                    id: 3,
+                    bookCover: '/assets/books/Alternative Medicine October 2023.jpg',
+                    bookName: 'Alternative Medicine',
+                    bookDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+                    bookLink: '/assets/scorm/Alternative Medicine October 2023/res/index.html',
+                    numberOfReaders: '70%'
+                },
+                {
+                    id: 4,
+                    bookCover: '/assets/books/Elon Musk Walter Isaacson.jpg',
+                    bookName: 'Elon Musk Walter Isaacson',
+                    bookDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+                    bookLink: '/assets/scorm/Elon Musk Walter Isaacson/res/index.html',
+                    numberOfReaders: '70%'
+                }, {
+                    id: 5,
+                    bookCover: '/assets/books/Hbrs 10 Must Reads Ultimate Boxed Set By Misc Authors.jpg',
+                    bookName: 'Hbrs 10 Must Reads Ultimate Boxed Set',
+                    bookDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+                    bookLink: '/assets/scorm/Hbrs 10 Must Reads Ultimate Boxed Set By Misc Authors/res/index.html',
+                    numberOfReaders: '70%'
+                },
+                {
+                    id: 6,
+                    bookCover: '/assets/books/Mit Sloan Management Review.jpg',
+                    bookName: 'Mit Sloan Management Review',
+                    bookDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+                    bookLink: '/assets/scorm/Mit Sloan Management Review/res/index.html',
+                    numberOfReaders: '70%'
+                },
+                {
+                    id: 7,
+                    bookCover: '/assets/books/My Herbs Issue 24 2023.jpg',
+                    bookName: 'My Herbs Issue',
+                    bookDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+                    bookLink: '/assets/scorm/My Herbs Issue 24 2023/res/index.html',
+                    numberOfReaders: '70%'
+                },
+                {
+                    id: 8,
+                    bookCover: '/assets/books/Snip Burn Solder Shred 2011.jpg',
+                    bookName: 'Snip Burn Solder Shred 2011',
+                    bookDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+                    bookLink: '/assets/scorm/Snip Burn Solder Shred 2011/res/index.html',
+                    numberOfReaders: '70%'
                 }
             ]
         }

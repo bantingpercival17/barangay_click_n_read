@@ -1,17 +1,19 @@
 <template>
     <nav class="nav navbar navbar-expand-lg navbar-light iq-navbar py-lg-0">
         <div class="container-fluid navbar-inner">
-            <router-link :to="{ name: 'student-layout.dashboard' }" class="navbar-brand ms-3">
-                <img src="@/assets/logo.png" class="avatar-100" alt="">
+            <router-link :to="{ name: 'student-layout.dashboard-v2' }" class="navbar-brand ms-3">
+                <div class="f-flex align-items-center">
+                    <img src="@/assets/logo.png" class="avatar-100" alt="">
+                </div>
             </router-link>
-            <div class="sidebar-toggle" data-toggle="sidebar" data-active="true" @click="opensidebar">
+            <!-- <div class="sidebar-toggle" data-toggle="sidebar" data-active="true" @click="opensidebar">
                 <i class="icon">
                     <svg width="20px" height="20px" viewBox="0 0 24 24">
                         <path fill="currentColor"
                             d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" />
                     </svg>
                 </i>
-            </div>
+            </div> -->
             <div class="input-group search-input">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb mt-2">
@@ -19,14 +21,14 @@
                     </ol>
                 </nav>
             </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            <!--  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon">
                     <span class="navbar-toggler-bar bar1 mt-2"></span>
                     <span class="navbar-toggler-bar bar2"></span>
                     <span class="navbar-toggler-bar bar3"></span>
                 </span>
-            </button>
+            </button> -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto top-menu navbar-nav align-items-center navbar-list mb-3 mb-lg-0">
                     <li>
@@ -42,7 +44,7 @@
                                                     aria-expanded="false">
                                                     <img src="@/assets/user-logo.png" alt="User-Profile"
                                                         class="img-fluid avatar avatar-50 avatar-rounded ">
-                                                   Mark
+                                                    Mark
                                                 </a>
                                                 <ul class="dropdown-menu  dropdown-menu-lg-end"
                                                     aria-labelledby="navbarDropdown3">

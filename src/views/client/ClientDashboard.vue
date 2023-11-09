@@ -4,12 +4,12 @@
     </div>
     <div v-else>
         <p class='display-6 fw-bolder text-primary'>BOOK LIST</p>
-        <div class="form-sort row">
+        <!-- <div class="form-sort row">
             <div class="col-md">
                 <small class="fw-bolder">SEARCH BOOK NAME</small>
                 <input type="text" class="form-control form-control-sm border border-primary">
             </div>
-        </div>
+        </div> -->
         <div class="row mt-5">
             <div class="col-lg-4 col-md-6 col-xs-12" v-for="(data, index) in subjectLists" :key="index">
                 <router-link :to="{ name: 'student-layout.book-view', params: { book: encrypt(data.id) } }">
@@ -50,18 +50,72 @@ export default {
         return {
             isLoading: true,
             subjectLists: [
-                {
+               /*  {
                     id: 1,
                     bookCover: '/assets/books/ENGLISH_GR2.png',
                     bookName: 'ENGLISH 2',
                     bookDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
                     bookLink: '@/assets/books/ENGLISH_BOOK_GRADE_2.pdf',
                     numberOfReaders: '50%'
-                },
+                }, */
                 {
                     id: 2,
                     bookCover: '/assets/books/ENGLISH_GR1.png',
                     bookName: 'ENGLISH 1',
+                    bookDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+                    bookLink: '@/assets/books/Grade_G1_G1.pdf',
+                    numberOfReaders: '70%'
+                },
+                {
+                    id: 3,
+                    bookCover: '/assets/books/Alternative Medicine October 2023.jpg',
+                    bookName: 'Alternative Medicine',
+                    bookDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+                    bookLink: '@/assets/books/Grade_G1_G1.pdf',
+                    numberOfReaders: '70%'
+                },
+                {
+                    id: 4,
+                    bookCover: '/assets/books/Elon Musk Walter Isaacson.jpg',
+                    bookName: 'Elon Musk Walter Isaacson',
+                    bookDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+                    bookLink: '@/assets/books/Grade_G1_G1.pdf',
+                    numberOfReaders: '70%'
+                }, {
+                    id: 5,
+                    bookCover: '/assets/books/Financial Times Europe 03 11 2023.jpg',
+                    bookName: 'Financial Times Europe',
+                    bookDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+                    bookLink: '@/assets/books/Grade_G1_G1.pdf',
+                    numberOfReaders: '70%'
+                }, {
+                    id: 6,
+                    bookCover: '/assets/books/Hbrs 10 Must Reads Ultimate Boxed Set By Misc Authors.jpg',
+                    bookName: 'Hbrs 10 Must Reads Ultimate Boxed Set',
+                    bookDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+                    bookLink: '@/assets/books/Grade_G1_G1.pdf',
+                    numberOfReaders: '70%'
+                },
+                {
+                    id: 7,
+                    bookCover: '/assets/books/Mit Sloan Management Review.jpg',
+                    bookName: 'Mit Sloan Management Review',
+                    bookDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+                    bookLink: '@/assets/books/Grade_G1_G1.pdf',
+                    numberOfReaders: '70%'
+                },
+                {
+                    id: 8,
+                    bookCover: '/assets/books/My Herbs Issue 24 2023.jpg',
+                    bookName: 'My Herbs Issue',
+                    bookDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+                    bookLink: '@/assets/books/Grade_G1_G1.pdf',
+                    numberOfReaders: '70%'
+                },
+                {
+                    id: 8,
+                    bookCover: '/assets/books/Snip Burn Solder Shred 2011.jpg',
+                    bookName: 'Snip Burn Solder Shred 2011',
                     bookDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
                     bookLink: '@/assets/books/Grade_G1_G1.pdf',
                     numberOfReaders: '70%'
