@@ -122,19 +122,20 @@ function applicantUserMiddleware(to, from, next) {
 router.beforeEach((to, from, next) => {
   const isAuth = store.getters[`auth/${IS_USER_AUTHENTICATE_GETTER}`]
   const isAuthType = store.getters[`auth/${GET_USER_TYPE}`]
-  document.title = `${to.meta.name} - Baliwag Maritime Academy, Inc.`
-  if (isAuth) {
-    if (isAuthType === 'student') {
-      studentUserMiddleware(to, from, next)
-    } else if (isAuthType === 'applicant') {
-      applicantUserMiddleware(to, from, next)
-    }
-  } else {
-    if (to.meta.user !== 'guest') {
-      next('/')
-    } else {
-      next()
-    }
-  }
+  document.title = `${to.meta.name} - BARANGAY CLICK N READ.`
+  next()
+  // if (isAuth) {
+  //   if (isAuthType === 'student') {
+  //     studentUserMiddleware(to, from, next)
+  //   } else if (isAuthType === 'applicant') {
+  //     applicantUserMiddleware(to, from, next)
+  //   }
+  // } else {
+  //   if (to.meta.user !== 'guest') {
+  //     next('/')
+  //   } else {
+  //     next()
+  //   }
+  // }
 })
 export default router

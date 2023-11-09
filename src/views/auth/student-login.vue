@@ -1,15 +1,14 @@
 <template>
     <div class="row m-0 align-items-center vh-100">
         <div class="res-hide col-lg-7 col-md-0 d-md-block d-none p-0">
-            <img src="@/assets/resources/banner/bma-building.png" class="img-fluid gradient-main vh-100" alt="images">
+            <img src="@/assets/banner.png" class="img-fluid gradient-main vh-100" alt="images">
         </div>
         <div class="col-lg-5 col-md-12">
             <div class="card-body">
                 <center>
-                    <img src="@/logo.png"
-                        class="center img-fluid avatar avatar-100 rounded-circle" alt="logo">
+                    <img src="@/assets/logo.png"
+                        class="center img-fluid " alt="logo">
                 </center>
-                <h2 class="mb-2 text-center"><b>STUDENT PORTAL</b></h2>
                 <p class="text-center">SIGN IN</p>
                 <!-- <span class="badge bg-secondary mt-2">version 1.0.1</span> <br/>
                 <span class="badge bg-secondary mt-2">{{ url }}</span> <br/>
@@ -30,8 +29,8 @@
                                 <input type="checkbox" class="form-check-input" id="customCheck1" v-model="rememberMe">
                                 <label class="form-check-label" for="customCheck1">Remember Me</label>
                             </div>
-                            <router-link :to="{ name: 'app-layout.student-forget-password' }" class="">Forgot
-                                Password?</router-link>
+                          <!--   <router-link :to="{ name: 'app-layout.student-forget-password' }" class="">Forgot
+                                Password?</router-link> -->
                         </div>
                     </div>
                     <div class="d-flex justify-content-center">

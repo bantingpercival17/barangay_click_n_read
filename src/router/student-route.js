@@ -9,6 +9,16 @@ export const studentRoute = (prop) => [{
     component: () => import('../views/client/ClientDashboard.vue')
   },
   {
+    path: '/book/:book',
+    name: prop + '.book-view',
+    meta: {
+      auth: true,
+      name: 'Book Viewer',
+      user: 'student'
+    },
+    component: () => import('../views/client/EbookViewer.vue')
+  },
+  {
     path: '/student/dashboard',
     name: prop + '.dashboard',
     meta: {

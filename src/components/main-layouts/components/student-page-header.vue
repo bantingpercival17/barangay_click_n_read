@@ -2,8 +2,7 @@
     <nav class="nav navbar navbar-expand-lg navbar-light iq-navbar py-lg-0">
         <div class="container-fluid navbar-inner">
             <router-link :to="{ name: 'student-layout.dashboard' }" class="navbar-brand ms-3">
-
-                <span class="ms-1 font-weight-bold text-primary"><b>Student Portal</b></span>
+                <img src="@/assets/logo.png" class="avatar-100" alt="">
             </router-link>
             <div class="sidebar-toggle" data-toggle="sidebar" data-active="true" @click="opensidebar">
                 <i class="icon">
@@ -41,9 +40,9 @@
                                                 <a class="nav-link py-0 d-flex align-items-center" href="#"
                                                     id="navbarDropdown3" role="button" data-bs-toggle="dropdown"
                                                     aria-expanded="false">
-                                                    <img :src="profilePicture" alt="User-Profile"
+                                                    <img src="@/assets/user-logo.png" alt="User-Profile"
                                                         class="img-fluid avatar avatar-50 avatar-rounded ">
-                                                    {{ name }}
+                                                   Mark
                                                 </a>
                                                 <ul class="dropdown-menu  dropdown-menu-lg-end"
                                                     aria-labelledby="navbarDropdown3">
@@ -55,8 +54,7 @@
                                                         <hr class="dropdown-divider">
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item"
-                                                            @click="logOut">Logout</a>
+                                                        <a class="dropdown-item" @click="logOut">Logout</a>
                                                     </li>
                                                 </ul>
                                             </li>
