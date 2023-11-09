@@ -1,6 +1,6 @@
 {
   "appId": "com.example.app",
-  "appName": "BMA Student Portal",
+  "appName": "BarangayClickNGo",
   "webDir": "dist",
   "server": {
     "androidScheme": "http"
